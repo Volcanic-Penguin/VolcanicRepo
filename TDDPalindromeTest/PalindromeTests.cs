@@ -78,5 +78,16 @@ namespace TDDPalindrome.Test
         }
         #endregion 
 
+        #region Impossible Cases
+        [TestMethod]
+        public void MissionImpossible()
+        {
+
+            //Assert
+            Assert.AreEqual("BABOOSHKA", "SAYONARAAAAA");
+
+        }
+        #endregion
+
     }
 }
