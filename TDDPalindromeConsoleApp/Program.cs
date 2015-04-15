@@ -16,7 +16,7 @@ namespace TDDPalindrome
             while (true)
             {
 
-                Console.WriteLine("Enter a word");
+                Console.WriteLine("Enter a nice word");
                 var value = Console.ReadLine();
 
                 if (value == "q") break;
